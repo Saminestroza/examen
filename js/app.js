@@ -56,6 +56,11 @@ var app = new Framework7({
     	url: 'producto.html',
     	name: 'producto',
   		},
+		{
+		path: '/about/',
+    	url: 'about.html',
+    	name: 'about',
+  		},
 
 		
 		

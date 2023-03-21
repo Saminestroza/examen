@@ -1,8 +1,8 @@
 :root{
-	--f7-theme-color:#5079FE;
+	--f7-theme-color:#0ABAB5;
 	--f7-navbar-bg-color: #fff; /*navbar*/
-	--f7-navbar-link-color: #5079FE; /*navbar link*/
-	--f7-navbar-text-color:#7C899F;
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#000;
 	--f7-bars-bg-color:#fff;/*toolbar*/
 	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
 	--f7-block-margin-vertical:20px;
@@ -32,6 +32,9 @@
 
 .button{
 	text-transform:uppercase;
+	background-color: #0ABAB5;
+	width: 170px;
+	
 }
 
 #productos img{ 
@@ -42,8 +45,9 @@
 	text-align: center;
 }
 
-.block img{
-	text-align: center;
+.img-fluid{
+	max-width: 10%;
+	display: block;
 }
 
 #reloj p{ 
@@ -52,15 +56,25 @@
 	font-size: 12px;
 }
 
+#about-content h2{
+
+}
+
+.material-icons{
+	color: #0ABAB5;
+}
 
 
 
+#reloj h2{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	color: #000000;
 
-
-
-
-
-
+}
 
 
 
